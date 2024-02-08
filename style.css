@@ -1,0 +1,347 @@
+
+
+  /* Apply a reset to remove default margin and padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Add a  background color to the top navigation bar copied from w3schools and modified in  background-color and margin */
+.navbar {
+    background-color: #3f3f3d;
+    overflow: hidden;
+  }
+.home{
+  margin-top: 20px;
+  background-color: rgb(206, 223, 197);
+  margin-bottom: 10px;
+}
+  /* layouts are modified with familyname, font family, padding, and text align */
+  
+.center_align{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:40px;
+}
+
+.title{
+  text-align: center;
+  font-size: medium;
+  font-style: normal;
+}
+.text-center{
+  padding-top: 20px;
+  margin-top: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+/* paragraph sizing */
+p{
+  font-size: 20px;
+}
+
+  /* Style the links inside the navigation bar  code from w3schools and are modified in color and font-size*/
+  .navbar a {
+    float: left;
+    color: #c7bfbf;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color and background color of links on hover */
+  .navbar a:hover {
+    background-color: #ccc2c2;
+    color: rgb(13, 13, 13);
+  }
+  /* Add a color to the active/current link  colors are modified */
+.topnav a.active {
+  background-color: #b6cac3;
+  color: white;
+}
+  
+
+  /* Style the about section with color,text-align,font-size, font-weight, class named as max-width few details are taken from https://codepen.io/yatharth-mulani/pen/dywrjyR */
+  .about {
+    background-color: rgb(211, 228, 231);
+    padding: 40px;
+    text-align: center;
+    
+  }
+   .max-width h2{
+    color: black;
+    text-align: center;
+    margin-block: 0px;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+  .center_align{
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+  }
+  /* Style the experience section with change in background color, padding and font-weight */
+  .experience {
+    background-color: rgb(210, 229, 233);
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .experience h2{
+  text-align: center;
+  font-weight: bold;
+  margin-block: 0px;
+  color: #181313;
+  
+  }
+  .experience h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+
+
+  }
+  .para{
+    text-align:center;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  /* Add color to table project section  taken from w3schools and modified in color,font-family ,font-size. Margin of the table is also modified*/
+  .table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #9ec5c5;
+    text-align: center;
+   
+  }
+  
+  .table th, .table td {
+    border: 5px solid #90b3b3;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #5e817f;
+  }
+  /* Image class and the images are allined in inline-block with list type none from w3schools */
+  
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .image{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #94aa96;
+    max-width: fit-content;
+    width: 100%;
+    height:100%;
+    margin-left: 30px;
+    float: left;
+  }
+  .Dip{
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width: 2000px;
+    height:20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+
+  
+  }
+  .Fold{
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width:2000px;
+    height:20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  
+  }
+  .sandstone{
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width:2000px;
+    height:20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  
+  }
+  .quarry{
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width:2000px;
+    height:20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  
+  }
+  .Strata{
+    float: left;
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    width:2000px;
+    height:20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  
+  }
+  .para{
+    margin-bottom: 10px;
+
+  }
+  .alink  {
+    background-color: rgb(182, 199, 182);
+    text-align: center;
+    height:auto
+  }
+   .alink a:hover{
+    color: blue;
+  }
+  .h3{
+    text-align: center;
+    
+  }
+ 
+/* second page css */
+.menu{
+  float: right;
+  color: #7a2072;
+  text-decoration: line-through;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 20px;
+}
+education
+/* Add a color to the current eduaction table with row and column with margin,padding modifications and colors .*/
+.education table, th, td {
+    position: relative;
+    border: 1px solid;
+    margin-bottom: auto;
+    table-layout: auto;
+    background-color: #4d523c;
+  
+  }
+  table{
+    width: 100%;
+  }
+/* Heading education  text in the table are aligned */
+.education h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+  background-color: #8ba18a;
+
+}
+.textp{
+  margin-top: 30px;
+  text-align: justify;
+  background-color:#94aa96
+}
+
+/* Add color and list to skill taken from w3schools with modifications in heading and font-size, font-weight,margin-top */
+.skills{
+  background-color:#587b52;
+  padding: 35px;
+  margin-top: 10px;
+  text-align: center;
+}
+.skills h1 {
+  font-size: 30px;
+  margin: 0;
+}
+.skills h2{
+  font-size: 20px;
+}
+/* about list styling */
+.list{
+background-color: rgb(155, 172, 156);
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+text-align: center;
+
+}
+/* Style the "Certifications" section */
+.CERTIFICATIONS {
+  text-align: center;
+  background-color: #2d5547;
+
+}
+.CERTIFICATIONS h3 {
+  font-size: 25px;
+  text-align: center;
+  background-color: #6da55e;
+}
+.listcert {
+  list-style: circle;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  background-color: #6da55e;
+}
+
+
+/* Add color to contact details*/
+.contactme{
+background-color: rgb(206, 223, 197);
+padding: 15px;
+text-align: center;
+
+}
+/* this stylesheet is taken from https://codepen.io/yatharth-mulani/pen/dywrjyR with slight modification in color and padding */
+.contact-container {
+  margin: 0 auto;
+  padding: 10%;
+  border: 1px solid #290202;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 1px;
+}
+/* change in color in ul and li */
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #050307;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
